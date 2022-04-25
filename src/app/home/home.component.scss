@@ -1,6 +1,73 @@
 .p-profile {
-  background-image: url("../../assets/images/profile_pic.jpeg");
+  background-image: url("/assets/images/main-picture.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
+
+  margin-top: 60px;
   width: 100%;
-  height: 500px;
+  height: 695px;
+
+  border: 10px solid #000000;
+}
+.col-sm-7 {
+  span {
+    font-size: 23px;
+    font-family: "Strretch sans";
+    color: #ffd301;
+  }
+  h1 {
+    font-size: 49px;
+    font-family: "Greyst";
+    color: #ffd301;
+  }
+  p {
+    color: #ffd301;
+    font-family: none;
+    font-size: 20px;
+  }
+  padding-left: 30px;
+}
+.cta-button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  align-content: flex-start;
+
+  padding: 10px 10px 10px 10px;
+  margin-top: 40px;
+
+  border: 3px solid #ffd301;
+  transition: all 0.5s ease-in;
+
+  .read-more {
+    color: #ffd301;
+
+    font-family: "Greyst";
+    font-size: 33px;
+    text-decoration: none;
+    padding-left: 20px;
+  }
+  i {
+    display: none;
+  }
+}
+.cta-button:hover {
+  background-color: #ffd301;
+  a{
+    color: #000000;
+  }
+  i {
+    font-size: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    padding-top: 5px;
+
+    color: #000000;
+    transition: all 0.5s ease-in-out;
+  }
 }
